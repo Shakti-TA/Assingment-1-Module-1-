@@ -1,0 +1,977 @@
+Script started on 2024-06-24 18:57:35+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="86" LINES="30"]
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ mkdir my_project
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ ls
+[?2004lmy-git-session  [0m[01;34mmy_project[0m  my_unix_session
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ pwd
+[?2004l/home/shaktil
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/shaktil/.git/
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ ls
+[?2004lmy-git-session  [0m[01;34mmy_project[0m  my_unix_session
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ rm -rf .git
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ ls -1
+[?2004lmy-git-session
+[0m[01;34mmy_project[0m
+my_unix_session
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ ls -a
+[?2004l[0m[01;34m.[0m              .bash_logout  .lesshst     .profile                   [01;34mmy_project[0m
+[01;34m..[0m             .bashrc       [01;34m.local[0m       .sudo_as_admin_successful  my_unix_session
+.bash_history  .gitconfig    .motd_shown  my-git-session
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ cd my-git-session
+[?2004lbash: cd: my-git-session: Not a directory
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ cd my_project
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ pwd
+[?2004l/home/shaktil/my_project
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/shaktil/my_project/.git/
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git add *.c
+[?2004lfatal: pathspec '*.c' did not match any files
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git add LICN[KENSE
+[?2004lfatal: pathspec 'LICENSE' did not match any files
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ rm -rf .git
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git clone https://github.com/libgi t2/libgit2 mylibgit
+[?2004lCloning into 'mylibgit'...
+remote: Enumerating objects: 125606, done.[K
+remote: Counting objects:   0% (1/125606)[Kremote: Counting objects:   1% (1257/125606)[Kremote: Counting objects:   2% (2513/125606)[Kremote: Counting objects:   3% (3769/125606)[Kremote: Counting objects:   4% (5025/125606)[Kremote: Counting objects:   5% (6281/125606)[Kremote: Counting objects:   6% (7537/125606)[Kremote: Counting objects:   7% (8793/125606)[Kremote: Counting objects:   8% (10049/125606)[Kremote: Counting objects:   9% (11305/125606)[Kremote: Counting objects:  10% (12561/125606)[Kremote: Counting objects:  11% (13817/125606)[Kremote: Counting objects:  12% (15073/125606)[Kremote: Counting objects:  13% (16329/125606)[Kremote: Counting objects:  14% (17585/125606)[Kremote: Counting objects:  15% (18841/125606)[Kremote: Counting objects:  16% (20097/125606)[Kremote: Counting objects:  17% (21354/125606)[Kremote: Counting objects:  18% (22610/125606)[Kremote: Counting objects:  19% (23866/125606)[Kremote: Counting objects:  20% (25122/125606)[Kremote: Counting objects:  21% (26378/125606)[Kremote: Counting objects:  22% (27634/125606)[Kremote: Counting objects:  23% (28890/125606)[Kremote: Counting objects:  24% (30146/125606)[Kremote: Counting objects:  25% (31402/125606)[Kremote: Counting objects:  26% (32658/125606)[Kremote: Counting objects:  27% (33914/125606)[Kremote: Counting objects:  28% (35170/125606)[Kremote: Counting objects:  29% (36426/125606)[Kremote: Counting objects:  30% (37682/125606)[Kremote: Counting objects:  31% (38938/125606)[Kremote: Counting objects:  32% (40194/125606)[Kremote: Counting objects:  33% (41450/125606)[Kremote: Counting objects:  34% (42707/125606)[Kremote: Counting objects:  35% (43963/125606)[Kremote: Counting objects:  36% (45219/125606)[Kremote: Counting objects:  37% (46475/125606)[Kremote: Counting objects:  38% (47731/125606)[Kremote: Counting objects:  39% (48987/125606)[Kremote: Counting objects:  40% (50243/125606)[Kremote: Counting objects:  41% (51499/125606)[Kremote: Counting objects:  42% (52755/125606)[Kremote: Counting objects:  43% (54011/125606)[Kremote: Counting objects:  44% (55267/125606)[Kremote: Counting objects:  45% (56523/125606)[Kremote: Counting objects:  46% (57779/125606)[Kremote: Counting objects:  47% (59035/125606)[Kremote: Counting objects:  48% (60291/125606)[Kremote: Counting objects:  49% (61547/125606)[Kremote: Counting objects:  50% (62803/125606)[Kremote: Counting objects:  51% (64060/125606)[Kremote: Counting objects:  52% (65316/125606)[Kremote: Counting objects:  53% (66572/125606)[Kremote: Counting objects:  54% (67828/125606)[Kremote: Counting objects:  55% (69084/125606)[Kremote: Counting objects:  56% (70340/125606)[Kremote: Counting objects:  57% (71596/125606)[Kremote: Counting objects:  58% (72852/125606)[Kremote: Counting objects:  59% (74108/125606)[Kremote: Counting objects:  60% (75364/125606)[Kremote: Counting objects:  61% (76620/125606)[Kremote: Counting objects:  62% (77876/125606)[Kremote: Counting objects:  63% (79132/125606)[Kremote: Counting objects:  64% (80388/125606)[Kremote: Counting objects:  65% (81644/125606)[Kremote: Counting objects:  66% (82900/125606)[Kremote: Counting objects:  67% (84157/125606)[Kremote: Counting objects:  68% (85413/125606)[Kremote: Counting objects:  69% (86669/125606)[Kremote: Counting objects:  70% (87925/125606)[Kremote: Counting objects:  71% (89181/125606)[Kremote: Counting objects:  72% (90437/125606)[Kremote: Counting objects:  73% (91693/125606)[Kremote: Counting objects:  74% (92949/125606)[Kremote: Counting objects:  75% (94205/125606)[Kremote: Counting objects:  76% (95461/125606)[Kremote: Counting objects:  77% (96717/125606)[Kremote: Counting objects:  78% (97973/125606)[Kremote: Counting objects:  79% (99229/125606)[Kremote: Counting objects:  80% (100485/125606)[Kremote: Counting objects:  81% (101741/125606)[Kremote: Counting objects:  82% (102997/125606)[Kremote: Counting objects:  83% (104253/125606)[Kremote: Counting objects:  84% (105510/125606)[Kremote: Counting objects:  85% (106766/125606)[Kremote: Counting objects:  86% (108022/125606)[Kremote: Counting objects:  87% (109278/125606)[Kremote: Counting objects:  88% (110534/125606)[Kremote: Counting objects:  89% (111790/125606)[Kremote: Counting objects:  90% (113046/125606)[Kremote: Counting objects:  91% (114302/125606)[Kremote: Counting objects:  92% (115558/125606)[Kremote: Counting objects:  93% (116814/125606)[Kremote: Counting objects:  94% (118070/125606)[Kremote: Counting objects:  95% (119326/125606)[Kremote: Counting objects:  96% (120582/125606)[Kremote: Counting objects:  97% (121838/125606)[Kremote: Counting objects:  98% (123094/125606)[Kremote: Counting objects:  99% (124350/125606)[Kremote: Counting objects: 100% (125606/125606)[Kremote: Counting objects: 100% (125606/125606), done.[K
+remote: Compressing objects:   0% (1/35012)[Kremote: Compressing objects:   1% (351/35012)[Kremote: Compressing objects:   2% (701/35012)[Kremote: Compressing objects:   3% (1051/35012)[Kremote: Compressing objects:   4% (1401/35012)[Kremote: Compressing objects:   5% (1751/35012)[Kremote: Compressing objects:   6% (2101/35012)[Kremote: Compressing objects:   7% (2451/35012)[Kremote: Compressing objects:   8% (2801/35012)[Kremote: Compressing objects:   9% (3152/35012)[Kremote: Compressing objects:  10% (3502/35012)[Kremote: Compressing objects:  11% (3852/35012)[Kremote: Compressing objects:  12% (4202/35012)[Kremote: Compressing objects:  13% (4552/35012)[Kremote: Compressing objects:  14% (4902/35012)[Kremote: Compressing objects:  15% (5252/35012)[Kremote: Compressing objects:  16% (5602/35012)[Kremote: Compressing objects:  17% (5953/35012)[Kremote: Compressing objects:  18% (6303/35012)[Kremote: Compressing objects:  19% (6653/35012)[Kremote: Compressing objects:  20% (7003/35012)[Kremote: Compressing objects:  21% (7353/35012)[Kremote: Compressing objects:  22% (7703/35012)[Kremote: Compressing objects:  23% (8053/35012)[Kremote: Compressing objects:  24% (8403/35012)[Kremote: Compressing objects:  25% (8753/35012)[Kremote: Compressing objects:  26% (9104/35012)[Kremote: Compressing objects:  27% (9454/35012)[Kremote: Compressing objects:  28% (9804/35012)[Kremote: Compressing objects:  29% (10154/35012)[Kremote: Compressing objects:  30% (10504/35012)[Kremote: Compressing objects:  31% (10854/35012)[Kremote: Compressing objects:  32% (11204/35012)[Kremote: Compressing objects:  33% (11554/35012)[Kremote: Compressing objects:  34% (11905/35012)[Kremote: Compressing objects:  35% (12255/35012)[Kremote: Compressing objects:  36% (12605/35012)[Kremote: Compressing objects:  37% (12955/35012)[Kremote: Compressing objects:  38% (13305/35012)[Kremote: Compressing objects:  39% (13655/35012)[Kremote: Compressing objects:  40% (14005/35012)[Kremote: Compressing objects:  41% (14355/35012)[Kremote: Compressing objects:  42% (14706/35012)[Kremote: Compressing objects:  43% (15056/35012)[Kremote: Compressing objects:  44% (15406/35012)[Kremote: Compressing objects:  45% (15756/35012)[Kremote: Compressing objects:  46% (16106/35012)[Kremote: Compressing objects:  47% (16456/35012)[Kremote: Compressing objects:  48% (16806/35012)[Kremote: Compressing objects:  49% (17156/35012)[Kremote: Compressing objects:  50% (17506/35012)[Kremote: Compressing objects:  51% (17857/35012)[Kremote: Compressing objects:  52% (18207/35012)[Kremote: Compressing objects:  53% (18557/35012)[Kremote: Compressing objects:  54% (18907/35012)[Kremote: Compressing objects:  55% (19257/35012)[Kremote: Compressing objects:  56% (19607/35012)[Kremote: Compressing objects:  57% (19957/35012)[Kremote: Compressing objects:  58% (20307/35012)[Kremote: Compressing objects:  59% (20658/35012)[Kremote: Compressing objects:  60% (21008/35012)[Kremote: Compressing objects:  61% (21358/35012)[Kremote: Compressing objects:  62% (21708/35012)[Kremote: Compressing objects:  63% (22058/35012)[Kremote: Compressing objects:  64% (22408/35012)[Kremote: Compressing objects:  65% (22758/35012)[Kremote: Compressing objects:  66% (23108/35012)[Kremote: Compressing objects:  67% (23459/35012)[Kremote: Compressing objects:  68% (23809/35012)[Kremote: Compressing objects:  69% (24159/35012)[Kremote: Compressing objects:  70% (24509/35012)[Kremote: Compressing objects:  71% (24859/35012)[Kremote: Compressing objects:  72% (25209/35012)[Kremote: Compressing objects:  73% (25559/35012)[Kremote: Compressing objects:  74% (25909/35012)[Kremote: Compressing objects:  75% (26259/35012)[Kremote: Compressing objects:  76% (26610/35012)[Kremote: Compressing objects:  77% (26960/35012)[Kremote: Compressing objects:  78% (27310/35012)[Kremote: Compressing objects:  79% (27660/35012)[Kremote: Compressing objects:  80% (28010/35012)[Kremote: Compressing objects:  81% (28360/35012)[Kremote: Compressing objects:  82% (28710/35012)[Kremote: Compressing objects:  83% (29060/35012)[Kremote: Compressing objects:  84% (29411/35012)[Kremote: Compressing objects:  85% (29761/35012)[Kremote: Compressing objects:  86% (30111/35012)[Kremote: Compressing objects:  87% (30461/35012)[Kremote: Compressing objects:  88% (30811/35012)[Kremote: Compressing objects:  89% (31161/35012)[Kremote: Compressing objects:  90% (31511/35012)[Kremote: Compressing objects:  91% (31861/35012)[Kremote: Compressing objects:  92% (32212/35012)[Kremote: Compressing objects:  93% (32562/35012)[Kremote: Compressing objects:  94% (32912/35012)[Kremote: Compressing objects:  95% (33262/35012)[Kremote: Compressing objects:  96% (33612/35012)[Kremote: Compressing objects:  97% (33962/35012)[Kremote: Compressing objects:  98% (34312/35012)[Kremote: Compressing objects:  99% (34662/35012)[Kremote: Compressing objects: 100% (35012/35012)[Kremote: Compressing objects: 100% (35012/35012), done.[K
+Receiving objects:   0% (1/125606)Receiving objects:   1% (1257/125606), 332.00 KiB | 644.00 KiB/sReceiving objects:   2% (2513/125606), 332.00 KiB | 644.00 KiB/sReceiving objects:   2% (2582/125606), 828.00 KiB | 734.00 KiB/sReceiving objects:   3% (3769/125606), 1.19 MiB | 742.00 KiB/s  Receiving objects:   3% (4604/125606), 1.19 MiB | 742.00 KiB/sReceiving objects:   4% (5025/125606), 1.19 MiB | 742.00 KiB/sReceiving objects:   5% (6281/125606), 1.75 MiB | 831.00 KiB/sReceiving objects:   6% (7537/125606), 2.48 MiB | 960.00 KiB/sReceiving objects:   7% (8793/125606), 2.48 MiB | 960.00 KiB/sReceiving objects:   7% (9153/125606), 2.48 MiB | 960.00 KiB/sReceiving objects:   8% (10049/125606), 2.48 MiB | 960.00 KiB/sReceiving objects:   9% (11305/125606), 3.24 MiB | 1.03 MiB/s  Receiving objects:  10% (12561/125606), 3.24 MiB | 1.03 MiB/sReceiving objects:  11% (13817/125606), 3.24 MiB | 1.03 MiB/sReceiving objects:  12% (15073/125606), 4.10 MiB | 1.12 MiB/sReceiving objects:  13% (16329/125606), 4.10 MiB | 1.12 MiB/sReceiving objects:  13% (16774/125606), 4.10 MiB | 1.12 MiB/sReceiving objects:  14% (17585/125606), 4.10 MiB | 1.12 MiB/sReceiving objects:  15% (18841/125606), 5.02 MiB | 1.21 MiB/sReceiving objects:  16% (20097/125606), 5.02 MiB | 1.21 MiB/sReceiving objects:  17% (21354/125606), 5.02 MiB | 1.21 MiB/sReceiving objects:  18% (22610/125606), 6.03 MiB | 1.29 MiB/sReceiving objects:  19% (23866/125606), 6.03 MiB | 1.29 MiB/sReceiving objects:  19% (24670/125606), 6.03 MiB | 1.29 MiB/sReceiving objects:  20% (25122/125606), 6.03 MiB | 1.29 MiB/sReceiving objects:  21% (26378/125606), 7.10 MiB | 1.45 MiB/sReceiving objects:  22% (27634/125606), 7.10 MiB | 1.45 MiB/sReceiving objects:  23% (28890/125606), 7.10 MiB | 1.45 MiB/sReceiving objects:  23% (29784/125606), 8.24 MiB | 1.63 MiB/sReceiving objects:  24% (30146/125606), 8.24 MiB | 1.63 MiB/sReceiving objects:  25% (31402/125606), 8.24 MiB | 1.63 MiB/sReceiving objects:  25% (32327/125606), 10.74 MiB | 1.97 MiB/sReceiving objects:  25% (32493/125606), 13.51 MiB | 2.24 MiB/sReceiving objects:  26% (32658/125606), 13.51 MiB | 2.24 MiB/sReceiving objects:  26% (33082/125606), 16.56 MiB | 2.51 MiB/sReceiving objects:  27% (33914/125606), 18.19 MiB | 2.65 MiB/sReceiving objects:  28% (35170/125606), 19.89 MiB | 2.78 MiB/sReceiving objects:  28% (36061/125606), 19.89 MiB | 2.78 MiB/sReceiving objects:  29% (36426/125606), 19.89 MiB | 2.78 MiB/sReceiving objects:  30% (37682/125606), 21.71 MiB | 2.92 MiB/sReceiving objects:  31% (38938/125606), 21.71 MiB | 2.92 MiB/sReceiving objects:  32% (40194/125606), 23.83 MiB | 3.12 MiB/sReceiving objects:  33% (41450/125606), 23.83 MiB | 3.12 MiB/sReceiving objects:  33% (41808/125606), 23.83 MiB | 3.12 MiB/sReceiving objects:  34% (42707/125606), 23.83 MiB | 3.12 MiB/sReceiving objects:  35% (43963/125606), 23.83 MiB | 3.12 MiB/sReceiving objects:  36% (45219/125606), 26.23 MiB | 3.37 MiB/sReceiving objects:  37% (46475/125606), 26.23 MiB | 3.37 MiB/sReceiving objects:  38% (47731/125606), 26.23 MiB | 3.37 MiB/sReceiving objects:  39% (48987/125606), 29.10 MiB | 3.72 MiB/sReceiving objects:  40% (50243/125606), 29.10 MiB | 3.72 MiB/sReceiving objects:  40% (50888/125606), 29.10 MiB | 3.72 MiB/sReceiving objects:  41% (51499/125606), 29.10 MiB | 3.72 MiB/sReceiving objects:  42% (52755/125606), 29.10 MiB | 3.72 MiB/sReceiving objects:  43% (54011/125606), 32.36 MiB | 4.12 MiB/sReceiving objects:  44% (55267/125606), 32.36 MiB | 4.12 MiB/sReceiving objects:  45% (56523/125606), 35.15 MiB | 4.42 MiB/sReceiving objects:  45% (56872/125606), 35.15 MiB | 4.42 MiB/sReceiving objects:  46% (57779/125606), 37.10 MiB | 4.51 MiB/sReceiving objects:  47% (59035/125606), 37.10 MiB | 4.51 MiB/sReceiving objects:  48% (60291/125606), 37.10 MiB | 4.51 MiB/sReceiving objects:  49% (61547/125606), 39.20 MiB | 4.62 MiB/sReceiving objects:  50% (62803/125606), 39.20 MiB | 4.62 MiB/sReceiving objects:  51% (64060/125606), 41.33 MiB | 4.73 MiB/sReceiving objects:  52% (65316/125606), 41.33 MiB | 4.73 MiB/sReceiving objects:  53% (66572/125606), 41.33 MiB | 4.73 MiB/sReceiving objects:  54% (67828/125606), 43.48 MiB | 4.81 MiB/sReceiving objects:  55% (69084/125606), 43.48 MiB | 4.81 MiB/sReceiving objects:  56% (70340/125606), 43.48 MiB | 4.81 MiB/sReceiving objects:  57% (71596/125606), 43.48 MiB | 4.81 MiB/sReceiving objects:  57% (72365/125606), 43.48 MiB | 4.81 MiB/sReceiving objects:  58% (72852/125606), 43.48 MiB | 4.81 MiB/sReceiving objects:  59% (74108/125606), 43.48 MiB | 4.81 MiB/sReceiving objects:  60% (75364/125606), 43.48 MiB | 4.81 MiB/sReceiving objects:  61% (76620/125606), 45.72 MiB | 4.85 MiB/sReceiving objects:  62% (77876/125606), 45.72 MiB | 4.85 MiB/sReceiving objects:  63% (79132/125606), 45.72 MiB | 4.85 MiB/sReceiving objects:  64% (80388/125606), 45.72 MiB | 4.85 MiB/sReceiving objects:  64% (80978/125606), 47.96 MiB | 4.81 MiB/sReceiving objects:  64% (81241/125606), 52.74 MiB | 4.49 MiB/sReceiving objects:  65% (81644/125606), 52.74 MiB | 4.49 MiB/sReceiving objects:  66% (82900/125606), 52.74 MiB | 4.49 MiB/sReceiving objects:  67% (84157/125606), 52.74 MiB | 4.49 MiB/sReceiving objects:  68% (85413/125606), 52.74 MiB | 4.49 MiB/sReceiving objects:  69% (86669/125606), 55.15 MiB | 4.41 MiB/sReceiving objects:  70% (87925/125606), 55.15 MiB | 4.41 MiB/sReceiving objects:  71% (89181/125606), 55.15 MiB | 4.41 MiB/sReceiving objects:  72% (90437/125606), 55.15 MiB | 4.41 MiB/sReceiving objects:  72% (91655/125606), 57.75 MiB | 4.56 MiB/sReceiving objects:  73% (91693/125606), 57.75 MiB | 4.56 MiB/sReceiving objects:  74% (92949/125606), 57.75 MiB | 4.56 MiB/sReceiving objects:  75% (94205/125606), 57.75 MiB | 4.56 MiB/sReceiving objects:  76% (95461/125606), 57.75 MiB | 4.56 MiB/sReceiving objects:  77% (96717/125606), 57.75 MiB | 4.56 MiB/sReceiving objects:  78% (97973/125606), 60.21 MiB | 4.64 MiB/sReceiving objects:  79% (99229/125606), 60.21 MiB | 4.64 MiB/sReceiving objects:  80% (100485/125606), 60.21 MiB | 4.64 MiB/sReceiving objects:  81% (101741/125606), 60.21 MiB | 4.64 MiB/sReceiving objects:  82% (102997/125606), 60.21 MiB | 4.64 MiB/sReceiving objects:  83% (104253/125606), 60.21 MiB | 4.64 MiB/sReceiving objects:  84% (105510/125606), 60.21 MiB | 4.64 MiB/sReceiving objects:  85% (106766/125606), 60.21 MiB | 4.64 MiB/sReceiving objects:  86% (108022/125606), 62.86 MiB | 4.75 MiB/sReceiving objects:  87% (109278/125606), 62.86 MiB | 4.75 MiB/sReceiving objects:  87% (110239/125606), 62.86 MiB | 4.75 MiB/sReceiving objects:  88% (110534/125606), 62.86 MiB | 4.75 MiB/sReceiving objects:  89% (111790/125606), 62.86 MiB | 4.75 MiB/sReceiving objects:  90% (113046/125606), 62.86 MiB | 4.75 MiB/sReceiving objects:  91% (114302/125606), 62.86 MiB | 4.75 MiB/sReceiving objects:  92% (115558/125606), 62.86 MiB | 4.75 MiB/sReceiving objects:  93% (116814/125606), 62.86 MiB | 4.75 MiB/sReceiving objects:  94% (118070/125606), 62.86 MiB | 4.75 MiB/sReceiving objects:  95% (119326/125606), 62.86 MiB | 4.75 MiB/sReceiving objects:  96% (120582/125606), 65.57 MiB | 4.87 MiB/sReceiving objects:  97% (121838/125606), 65.57 MiB | 4.87 MiB/sReceiving objects:  98% (123094/125606), 65.57 MiB | 4.87 MiB/sReceiving objects:  99% (124350/125606), 65.57 MiB | 4.87 MiB/sremote: Total 125606 (delta 89410), reused 124589 (delta 88519), pack-reused 0[K
+Receiving objects: 100% (125606/125606), 65.57 MiB | 4.87 MiB/sReceiving objects: 100% (125606/125606), 67.22 MiB | 3.42 MiB/s, done.
+Resolving deltas:   0% (0/89410)Resolving deltas:   1% (895/89410)Resolving deltas:   2% (1789/89410)Resolving deltas:   3% (2683/89410)Resolving deltas:   4% (3577/89410)Resolving deltas:   5% (4471/89410)Resolving deltas:   6% (5365/89410)Resolving deltas:   7% (6259/89410)Resolving deltas:   8% (7153/89410)Resolving deltas:   9% (8047/89410)Resolving deltas:  10% (8941/89410)Resolving deltas:  11% (9836/89410)Resolving deltas:  12% (10730/89410)Resolving deltas:  13% (11624/89410)Resolving deltas:  14% (12518/89410)Resolving deltas:  15% (13413/89410)Resolving deltas:  16% (14306/89410)Resolving deltas:  17% (15200/89410)Resolving deltas:  18% (16094/89410)Resolving deltas:  19% (16988/89410)Resolving deltas:  20% (17882/89410)Resolving deltas:  21% (18777/89410)Resolving deltas:  22% (19671/89410)Resolving deltas:  23% (20565/89410)Resolving deltas:  24% (21459/89410)Resolving deltas:  25% (22353/89410)Resolving deltas:  26% (23247/89410)Resolving deltas:  27% (24141/89410)Resolving deltas:  28% (25035/89410)Resolving deltas:  29% (25929/89410)Resolving deltas:  30% (26823/89410)Resolving deltas:  31% (27718/89410)Resolving deltas:  32% (28612/89410)Resolving deltas:  33% (29506/89410)Resolving deltas:  34% (30400/89410)Resolving deltas:  35% (31294/89410)Resolving deltas:  36% (32188/89410)Resolving deltas:  37% (33082/89410)Resolving deltas:  38% (33976/89410)Resolving deltas:  39% (34870/89410)Resolving deltas:  40% (35764/89410)Resolving deltas:  41% (36659/89410)Resolving deltas:  42% (37553/89410)Resolving deltas:  43% (38447/89410)Resolving deltas:  44% (39341/89410)Resolving deltas:  45% (40235/89410)Resolving deltas:  46% (41129/89410)Resolving deltas:  46% (41164/89410)Resolving deltas:  47% (42023/89410)Resolving deltas:  48% (42917/89410)Resolving deltas:  49% (43811/89410)Resolving deltas:  50% (44705/89410)Resolving deltas:  51% (45600/89410)Resolving deltas:  52% (46494/89410)Resolving deltas:  53% (47388/89410)Resolving deltas:  54% (48282/89410)Resolving deltas:  54% (48970/89410)Resolving deltas:  55% (49176/89410)Resolving deltas:  55% (49299/89410)Resolving deltas:  55% (49673/89410)Resolving deltas:  56% (50070/89410)Resolving deltas:  57% (50964/89410)Resolving deltas:  58% (51858/89410)Resolving deltas:  59% (52752/89410)Resolving deltas:  60% (53646/89410)Resolving deltas:  61% (54541/89410)Resolving deltas:  62% (55435/89410)Resolving deltas:  63% (56329/89410)Resolving deltas:  64% (57223/89410)Resolving deltas:  65% (58117/89410)Resolving deltas:  66% (59011/89410)Resolving deltas:  67% (59905/89410)Resolving deltas:  68% (60799/89410)Resolving deltas:  68% (61649/89410)Resolving deltas:  69% (61693/89410)Resolving deltas:  70% (62587/89410)Resolving deltas:  71% (63482/89410)Resolving deltas:  72% (64376/89410)Resolving deltas:  73% (65270/89410)Resolving deltas:  74% (66164/89410)Resolving deltas:  74% (66899/89410)Resolving deltas:  75% (67058/89410)Resolving deltas:  75% (67473/89410)Resolving deltas:  76% (67952/89410)Resolving deltas:  77% (68846/89410)Resolving deltas:  78% (69740/89410)Resolving deltas:  79% (70634/89410)Resolving deltas:  80% (71528/89410)Resolving deltas:  81% (72423/89410)Resolving deltas:  82% (73317/89410)Resolving deltas:  83% (74211/89410)Resolving deltas:  83% (75103/89410)Resolving deltas:  84% (75105/89410)Resolving deltas:  85% (75999/89410)Resolving deltas:  86% (76893/89410)Resolving deltas:  87% (77787/89410)Resolving deltas:  88% (78681/89410)Resolving deltas:  89% (79575/89410)Resolving deltas:  90% (80469/89410)Resolving deltas:  91% (81364/89410)Resolving deltas:  92% (82258/89410)Resolving deltas:  93% (83152/89410)Resolving deltas:  94% (84046/89410)Resolving deltas:  95% (84940/89410)Resolving deltas:  96% (85834/89410)Resolving deltas:  97% (86728/89410)Resolving deltas:  98% (87622/89410)Resolving deltas:  98% (88007/89410)Resolving deltas:  99% (88516/89410)Resolving deltas: 100% (89410/89410)Resolving deltas: 100% (89410/89410), done.
+Updating files:   8% (1014/11868)Updating files:   9% (1069/11868)Updating files:  10% (1187/11868)Updating files:  11% (1306/11868)Updating files:  12% (1425/11868)Updating files:  13% (1543/11868)Updating files:  14% (1662/11868)Updating files:  15% (1781/11868)Updating files:  16% (1899/11868)Updating files:  16% (1994/11868)Updating files:  17% (2018/11868)Updating files:  18% (2137/11868)Updating files:  19% (2255/11868)Updating files:  20% (2374/11868)Updating files:  21% (2493/11868)Updating files:  22% (2611/11868)Updating files:  23% (2730/11868)Updating files:  24% (2849/11868)Updating files:  24% (2858/11868)Updating files:  25% (2967/11868)Updating files:  26% (3086/11868)Updating files:  27% (3205/11868)Updating files:  28% (3324/11868)Updating files:  29% (3442/11868)Updating files:  30% (3561/11868)Updating files:  31% (3680/11868)Updating files:  32% (3798/11868)Updating files:  33% (3917/11868)Updating files:  33% (3920/11868)Updating files:  34% (4036/11868)Updating files:  35% (4154/11868)Updating files:  36% (4273/11868)Updating files:  37% (4392/11868)Updating files:  38% (4510/11868)Updating files:  39% (4629/11868)Updating files:  40% (4748/11868)Updating files:  41% (4866/11868)Updating files:  42% (4985/11868)Updating files:  42% (5009/11868)Updating files:  43% (5104/11868)Updating files:  44% (5222/11868)Updating files:  45% (5341/11868)Updating files:  46% (5460/11868)Updating files:  47% (5578/11868)Updating files:  48% (5697/11868)Updating files:  49% (5816/11868)Updating files:  50% (5934/11868)Updating files:  50% (6026/11868)Updating files:  51% (6053/11868)Updating files:  52% (6172/11868)Updating files:  53% (6291/11868)Updating files:  54% (6409/11868)Updating files:  55% (6528/11868)Updating files:  56% (6647/11868)Updating files:  57% (6765/11868)Updating files:  58% (6884/11868)Updating files:  59% (7003/11868)Updating files:  60% (7121/11868)Updating files:  60% (7160/11868)Updating files:  61% (7240/11868)Updating files:  62% (7359/11868)Updating files:  63% (7477/11868)Updating files:  64% (7596/11868)Updating files:  65% (7715/11868)Updating files:  66% (7833/11868)Updating files:  67% (7952/11868)Updating files:  68% (8071/11868)Updating files:  69% (8189/11868)Updating files:  69% (8284/11868)Updating files:  70% (8308/11868)Updating files:  71% (8427/11868)Updating files:  72% (8545/11868)Updating files:  73% (8664/11868)Updating files:  74% (8783/11868)Updating files:  75% (8901/11868)Updating files:  76% (9020/11868)Updating files:  76% (9076/11868)Updating files:  77% (9139/11868)Updating files:  78% (9258/11868)Updating files:  79% (9376/11868)Updating files:  80% (9495/11868)Updating files:  81% (9614/11868)Updating files:  82% (9732/11868)Updating files:  82% (9834/11868)Updating files:  83% (9851/11868)Updating files:  84% (9970/11868)Updating files:  85% (10088/11868)Updating files:  86% (10207/11868)Updating files:  87% (10326/11868)Updating files:  88% (10444/11868)Updating files:  89% (10563/11868)Updating files:  89% (10567/11868)Updating files:  90% (10682/11868)Updating files:  91% (10800/11868)Updating files:  92% (10919/11868)Updating files:  93% (11038/11868)Updating files:  94% (11156/11868)Updating files:  95% (11275/11868)Updating files:  95% (11278/11868)Updating files:  96% (11394/11868)Updating files:  97% (11512/11868)Updating files:  98% (11631/11868)Updating files:  99% (11750/11868)Updating files: 100% (11868/11868)Updating files: 100% (11868/11868), done.
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git status
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ ls
+[?2004l[0m[01;34mmylibgit[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ cd mylibgit
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ echo 'My Project' > READM E
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git add README
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README[m
+
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ echo 'My contribution' >  CONTRIBUTION.md[1P.md[1P.mdN.mdG.md[C[C[C
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   README[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mCONTRIBUTING.md[m
+
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git add CONTRIBUTING.md
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ vim CONTRIBUTING.md
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H"CONTRIBUTING.md" 1L, 16B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HMy contribution
+[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [m[27;55H1,1[11CAll[1;1H[?25h[?25l[27;45H~@k[1;1H[27;45H   [1;1H[?25h[?25l[27;45HH[1;1H[27;45H [1;1H[?25h[?25l[27;45H~@k[1;1H[27;45H   [1;2H[27;57H2[1;2H[?25h[?25l[27;45H~@k[1;2H[27;45H   [1;3H[27;57H3[1;3H[?25h[?25l[27;45H~@k[1;3H[27;45H   [1;4H[27;57H4[1;4H[?25h[?25l[27;45H~@k[1;4H[27;45H   [1;5H[27;57H5[1;5H[?25h[?25l[27;45H~@k[1;5H[27;45H   [1;6H[27;57H6[1;6H[?25h[?25l[27;45H~@k[1;6H[27;45H   [1;7H[27;57H7[1;7H[?25h[?25l[27;45H~@k[1;7H[27;45H   [1;8H[27;57H8[1;8H[?25h[?25l[27;45H~@k[1;8H[27;45H   [1;9H[27;57H9[1;9H[?25h[?25l[27;45H~@k[1;9H[27;45H   [1;10H[27;57H10[1;10H[?25h[?25l[27;45H~@k[1;10H[27;45H   [1;11H[27;58H1[1;11H[?25h[?25l[27;45H~@k[1;11H[27;45H   [1;12H[27;58H2[1;12H[?25h[?25l[27;45H~@k[1;12H[27;45H   [1;13H[27;58H3[1;13H[?25h[?25l[27;45H~@k[1;13H[27;45H   [1;14H[27;58H4[1;14H[?25h[?25l[27;45H~@k[1;14H[27;45H   [1;15H[27;58H5[1;15H[?25h[?25l[27;45H~@k[1;15H[27;45H   [1;15H[?25h[?25l[27;45H~@k[1;15H[27;45H   [1;15H[?25h[?25l[27;45H<20>[1;15H[27;45H    [1;15H[?25h[?25l[27;45H<20>[1;15H[27;45H    [1;15H[?25h[?25l[27;45H~@k[1;15H[27;45H   [1;15H[?25h[?25l[27;45H~@k[1;15H[27;45H   [1;15H[?25h[?25l[27;45H~@k[1;15H[27;45H   [1;15H[?25h[?25l[27;45H~@k[1;15H[27;45H   [1;14H[27;58H4[1;14H[?25h[?25l[27;45H~@k[1;14H[27;45H   [1;13H[27;58H3[1;13H[?25h[?25l[27;45H~@k[1;13H[27;45H   [1;12H[27;58H2[1;12H[?25h[?25l[27;45H~@k[1;12H[27;45H   [1;11H[27;58H1[1;11H[?25h[?25l[27;45H~@k[1;11H[27;45H   [1;10H[27;58H0[1;10H[?25h[?25l[27;45H~@k[1;10H[27;45H   [1;9H[27;57H9 [1;9H[?25h[?25l[27;45H~@k[1;9H[27;45H   [1;8H[27;57H8[1;8H[?25h[?25l[27;45Hd[1;8H[?25h[?25l[27;46H~@k[1;8H[27;45H    [1;8Hibution[1;15H[K[1;8H[?25h[?25l[27;45H~@k[1;8H[27;45H   [1;9H[27;57H9[1;9H[?25h[?25l[27;45H~@k[1;9H[27;45H   [1;10H[27;57H10[1;10H[?25h[?25l[27;45H~@k[1;10H[27;45H   [1;11H[27;58H1[1;11H[?25h[?25l[27;45H~@k[1;11H[27;45H   [1;12H[27;58H2[1;12H[?25h[?25l[27;45H~@k[1;12H[27;45H   [1;13H[27;58H3[1;13H[?25h[?25l[27;45H~@k[1;13H[27;45H   [1;14H[27;58H4[1;14H[?25h[?25l[27;45H~@k[1;14H[27;45H   [1;14H[?25h[?25l[27;45H~@k[1;14H[27;45H   [1;14H[?25h[?25l[27;45H~@k[1;14H[27;45H   [1;14H[?25h[?25l[27;45H^M[1;14H[27;45H  [1;14H[?25h[?25l[27;45H^O[1;14H[27;45H  [1;1H[27;58H [1;1H[?25h[?25l[27;45H^M[1;1H[27;45H  [1;1H[?25h[?25l[27;45H^X[1;1H[27;45H  [1;1H[?25h[?25l[27;45H^[[1;1H[27;45H  [1;1H[27;45H^[[1;1H[27;45H  [1;1H[?25h[?25l[27;45H^M[1;1H[27;45H  [1;1H[?25h[?25l[27;45H:[1;1H[27;1H[K[27;1H:[?25hwq[?25l[?2004l[>4;m"CONTRIBUTING.md" 1L, 15B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git add CONTRIBUTING.md
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git status -s
+[?2004l[32mA[m  CONTRIBUTING.md
+[32mA[m  README
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ cat .gitignore
+[?2004l/build/
+.DS_Store
+*~
+.*.swp
+/tags
+CMakeSettings.json
+.vs
+.idea
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git diff
+[?2004l[?1h=[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git diff --staged
+[?2004l[?1h=[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 000000000..bc7dee80f[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy contibution[m[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 000000000..56266d360[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git add CONTRIBUTING.md
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ echo '# test line' ?[K>> CON TRIBUTING.md
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   CONTRIBUTING.md[m
+	[32mnew file:   README[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git diff
+[?2004l[?1h=[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mindex bc7dee80f..fcead926e 100644[m[m
+[1m--- a/CONTRIBUTING.md[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -1 +1,2 @@[m[m
+ My contibution[m[m
+[32m+[m[32m# test line[m[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git diff --cached
+[?2004l[?1h=[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 000000000..bc7dee80f[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy contibution[m[m
+[1mdiff --git a/README b/README[m[m
+[1mnew file mode 100644[m[m
+[1mindex 000000000..56266d360[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/README[m[m
+[36m@@ -0,0 +1 @@[m[m
+[32m+[m[32mMy Project[m[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git commit
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;30H(B[0;7m[ Reading... ](B[m[25;28H(B[0;7m[ Read 14 lines ](B[m[H(B[0;7m     /home/shaktil/my_project/mylibgit/.git/COMMIT_EDITMSG              [1;71H(B[m[26d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[26;57H(B[0;7m^T(B[m Execute[27d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[3d[36m# Please enter the commit message for your changes. Lines starting[4d# with '#' will be ignored, and an empty message aborts the commit.[5d#[6d# On branch main[7d# Your branch is up to date with 'origin/main'.[8d#[9d# Changes to be committed:[10d#[38;5;208m       [36mnew file:   CONTRIBUTING.md[11d#[38;5;208m       [36mnew file:   README[12d#[13d# Changes not staged for commit:[14d#[38;5;208m       [36mmodified:   CONTRIBUTING.md[15d#[2d[39m(B[m[?12l[?25h[?25l[1;60H(B[0;7m*[71G(B[m[?12l[?25h[2dD[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25he[?25l[26;15H    (B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append  [55G(B[0;7mM-B(B[m Backup File[27;2H(B[0;7mC(B[m Cancel         (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend       (B[0;7m^T(B[m Browse[K[25d(B[0;7mFile Name to Write:<MSG                                                 [25;24H(B[m[?12l[?25h[?25l[29G[1K (B[0;7m[ Writing... ](B[m[K[1;60H(B[0;7m [71G(B[m[25;28H(B[0;7m[ Wrote 14 lines ](B[m[26;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[55G  (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify[?12l[?25h[2;5H[?25l[25d[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t[?1l>[?2004l[K[main b2ae52146] Done
+ 2 files changed, 2 insertions(+)
+ create mode 100644 CONTRIBUTING.md
+ create mode 100644 README
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git commit -m 'Story 182:  fix benchmarks for speed"[K'
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   CONTRIBUTING.md[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git commit -a -m 'Add new  benchmarks'
+[?2004l[main 69e5f2b2b] Add new benchmarks
+ 1 file changed, 1 insertion(+)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ ls
+[?2004lAUTHORS          README        [0m[01;34mci[0m     [01;34mexamples[0m         package.json
+CMakeLists.txt   README.md     [01;34mcmake[0m  [01;34mfuzzers[0m          [01;34mscript[0m
+CONTRIBUTING.md  SECURITY.md   [01;34mdeps[0m   git.git-authors  [01;34msrc[0m
+COPYING          api.docurium  [01;34mdocs[0m   [01;34minclude[0m          [01;34mtests[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ rm PROJECTS.md
+[?2004lrm: cannot remove 'PROJECTS.md': No such file or directory
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git rm --cached README
+[?2004lrm 'README'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git rm log/\*.log
+[?2004lfatal: pathspec 'log/*.log' did not match any files
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git mv README.md README
+[?2004lfatal: destination exists, source=README.md, destination=README
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git log
+[?2004l[?1h=[33mcommit 69e5f2b2bab2d12d0fb5009b1724168a95ec7f4c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Shakti Lakhera <shakti.lakhera@tigeranalytics.com>[m
+Date:   Mon Jun 24 19:17:04 2024 +0530[m
+[m
+    Add new benchmarks[m
+[m
+[33mcommit b2ae521465d203e3052266e52e1ac6568b947576[m[m
+Author: Shakti Lakhera <shakti.lakhera@tigeranalytics.com>[m
+Date:   Mon Jun 24 19:15:56 2024 +0530[m
+[m
+    Done[m
+[m
+[33mcommit 4ce872a0fd5f40fc4282befd9b72e9ddebd22d02[m[33m ([m[1;33mtag: v1.8.2-rc1[m[33m, [m[1;31morigin[m [33m[m[33m[m[1;33m[m[33m[m[1;31m/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Merge: 4516ca149 e9d56b0b1[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Fri Jun 14 00:15:19 2024 +0200[m
+[m
+    Merge pull request #6830 from libgit2/ethomson/v1.8.2[m
+    [m
+    libgit2 v1.8.2[m
+[m
+[33mcommit e9d56b0b14df53e739348e097ebc4dc44a7f3ea5[m[33m ([m[1;31morigin/ethomson/v1.8.2[m[33m)[m[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Thu Jun 13 19:43:46 2024 +0200[m
+[m
+:[K[K    v1.8.2: update version numbers[m
+:[K[K[m
+:[K[K[33mcommit 48b63274eaae07512dde115e965a31afa48b75da[m[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Thu Jun 13 19:42:55 2024 +0200[m
+:[K[K[m
+:[K[K    v1.8.2: update changelog[m
+:[K[K[m
+:[K[K[33mcommit 4516ca1497623aeddd1a4dc6540b29c797279a5f[m[m
+:[K[KMerge: 93cb09f28 49d3fadfc[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Thu Jun 13 15:44:32 2024 +0200[m
+:[K[K[m
+:[K[K    Merge pull request #6829 from libgit2/ethomson/fix_constness[m
+:[K[K    [m
+:[K[K     Fix constness issue introduced in #6716[m
+:[K[K[m
+:[K[K[33mcommit 93cb09f289ccc9ef892347507de07ea5fec88802[m[m
+:[K[KMerge: 6c5520f33 ee552697d[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Thu Jun 13 15:23:53 2024 +0200[m
+:[K[K[m
+:[K[K    Merge pull request #6816 from libgit2/ethomson/readme[m
+:[K[K    [m
+:[K[K    README: add experimental builds to ci table[m
+:[K[K[m
+:[K[K[33mcommit 49d3fadfca4ce8e7a643525eb301a2d45956641e[m[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Thu Jun 13 15:20:40 2024 +0200[m
+:[K[K[m
+    Revert "commit: fix const declaration"[m
+    [m
+    This reverts commit cf19ddc52227f4ec2efd4c0a84aa5d2362f0ffc7, which[m
+    was breaking for several projects.[m
+[m
+[33mcommit 6c5520f334e5652d5f0476c00a3188d1d97754e7[m[m
+Merge: 36f7e21ad eb00b48d9[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Thu May 16 11:34:07 2024 +0100[m
+[m
+    Merge pull request #6811 from libgit2/ethomson/test_allocator[m
+    [m
+    Introduce a stricter debugging allocator for testing[m
+[m
+[33mcommit ee552697d52dcd4394df90fd69c439bcdd7901d7[m[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Thu May 16 11:18:41 2024 +0100[m
+[m
+    README: update build badges and links[m
+    [m
+    Use new-style links to the build information and badges, which link [m to the workflow filename, not the display name.[m
+[m
+[33mcommit 36f7e21ad757a3dacc58cf7944329da6bc1d6e96[m[33m ([m[1;33mtag: v1.8.1[m[33m)[m[m
+Merge: c7af393a4 ae65dac85[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Thu May 16 10:58:48 2024 +0100[m
+[m
+    Merge pull request #6817 from libgit2/ethomson/v1.8.1[m
+    [m
+    libgit2 v1.8.1[m
+[m
+[33mcommit ae65dac85ec4bfe795b35a8f1f4815489668713f[m[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Thu May 16 00:46:42 2024 +0100[m
+[m
+    v1.8.1: update changelog[m
+[m
+[33mcommit 834ec0f52fcafd3af011dfd3f1b36ae2ee984ea5[m[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Thu May 16 00:49:10 2024 +0100[m
+[m
+    v1.8.1: update version numbers[m
+[m
+[33mcommit 0dab9d4a5774418cc5fc587ba4ee19fa62606f8c[m[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Wed May 15 23:11:07 2024 +0100[m
+[m
+    README: add experimental builds to ci table[m
+[m
+[33mcommit eb00b48d915d0dd01e41364d31c6ab8470834aae[m[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Wed May 15 22:38:33 2024 +0100[m
+[m
+    fixup! alloc: introduce debug allocators[m
+[m
+[33mcommit abedcfe71ce8b8cf58b4ac4c276dbc45a31d90ea[m[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Thu Apr 18 17:31:27 2024 +0100[m
+[m
+    tests: reset the allocator to the default[m
+    [m
+    Instead of setting the allocator to stdalloc, just pass `NULL`, in c[m ase[m
+    we're running with the debug allocator.[m
+[m
+[33mcommit afb2ef21bc46e116ec939164fdb5efb77cd88536[m[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Thu Apr 18 14:54:29 2024 +0100[m
+[m
+    util: don't return system allocated strings in realpath[m
+    [m
+    realpath(3) _may_ allocate strings (if the second param is NULL) usi[m ng[m
+    the system allocator. However, callers need an assurance that they c[m an[m
+    free memory using git__free. If we made realpath do an allocation, t[m :[K[Khen[m
+:[K[K    make sure that we strdup it into our allocator's memory.[m
+:[K[K    [m
+:[K[K    More importantly, avoid this behavior by always providing a buffer t[m :[K[Ko[m
+:[K[K    p_realpath invocations.[m
+:[K[K[m
+:[K[K[33mcommit cfd6e0148b93e4823630c2839610f825b11d0294[m[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Thu Apr 18 20:49:57 2024 +0100[m
+:[K[K[m
+:[K[K    tests: use git__ allocator functions consistently[m
+:[K[K[m
+:[K[K[33mcommit aaed67f78673d6fb213de5a58dd1ed08d2ab9db2[m[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Thu Apr 18 20:47:45 2024 +0100[m
+:[K[K[m
+:[K[K    alloc: introduce debug allocators[m
+:[K[K    [m
+:[K[K    Instead of tweaking the `stdalloc` allocator when[m
+:[K[K    `GIT_DEBUG_STRICT_ALLOC` is defined, actually create a debugging[m
+:[K[K    allocator. This allows us to ensure that we are strict about things [m :[K[Klike[m
+:[K[K    not expecting `malloc(0)` to do something useful, but we can also[m
+:[K[K    introduce an excessively pedantic `realloc` implementation that _alw[m :[K[Kays_[m
+:[K[K    creates a new buffer, throws away its original `ptr`, and overwrites[m :[K[K the[m
+:[K[K    data that's there with garbage. This may be helpful to identify plac[m :[K[Kes[m
+:[K[K    that make assumptions about realloc.[m
+:[K[K[m
+:[K[K[33mcommit c7af393a480e004660e1643930adbe02efbf354e[m[m
+:[K[KMerge: f5c6b6ab1 99ba44608[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Mon May 13 11:29:34 2024 +0100[m
+:[K[K[m
+:[K[K    Merge pull request #6815 from libgit2/ethomson/signed_comparedness[m
+:[K[K    [m
+:[K[K    tree: avoid mixed signedness comparison[m
+:[K[K[m
+:[K[K[33mcommit f5c6b6ab14eec1b0d3a3586dff1a11e9249e1402[m[m
+:[K[KMerge: 9a2afb778 54218b550[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Mon May 13 11:29:25 2024 +0100[m
+:[K[K[m
+:[K[K    Merge pull request #6814 from libgit2/ethomson/alloc[m
+:[K[K    [m
+:[K[K    Update git_array allocator to obey strict aliasing rules[m
+:[K[K[m
+:[K[K[33mcommit 9a2afb778570064c7f5518bf6a2964598709af7a[m[m
+:[K[KMerge: 0e9eeec69 b1d6fd085[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Mon May 13 11:29:04 2024 +0100[m
+:[K[K[m
+:[K[K    Merge pull request #6813 from libgit2/ethomson/opt_alloc[m
+:[K[K    [m
+:[K[K    cli: include alloca on illumos / solaris / sunos[m
+:[K[K[m
+:[K[K[33mcommit 0e9eeec69af5fc7d55d63c57648ed5a9715268c0[m[m
+:[K[KMerge: 5647f6ea7 2fb07fd0e[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Mon May 13 11:28:48 2024 +0100[m
+:[K[K[m
+:[K[K    Merge pull request #6812 from libgit2/ethomson/unused-warnings[m
+:[K[K    [m
+:[K[K    rand: avoid uninitialized loadavg warnings[m
+:[K[K[m
+:[K[K[33mcommit 5647f6ea7d214de59ba60d7199164f3dda56bdf6[m[m
+:[K[KMerge: 5f796f881 bb3c31f32[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Mon May 13 11:28:35 2024 +0100[m
+:[K[K[m
+:[K[K    Merge pull request #6810 from libgit2/ethomson/xdiff[m
+:[K[K    [m
+:[K[K    xdiff: use proper free function[m
+:[K[K[m
+:[K[K[33mcommit 54218b5506a45217403f6cdfb85fce861b62606d[m[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Mon Apr 29 19:16:29 2024 +0100[m
+:[K[K[m
+:[K[K    array: treat `git_array` ptrs as `void *`[m
+:[K[K    [m
+:[K[K    Avoid sloppy aliasing in our (re-)allocation, which is undefined[m
+:[K[K    behavior. This has been problematic before and was helped by `volati[m :[K[Kle`[m
+:[K[K    (see b62a6a13b2f9a40e6ea4bf7bc2a9255429fb0bd6) but that is not[m
+:[K[K    technically correct, and some compilers / architectures do not[m
+:[K[K    understand that `ptr` is changing due to its aliasing.[m
+:[K[K    [m
+:[K[K    Just make `git_array_alloc` behave like `realloc`, taking a `void *`[m :[K[K and[m
+:[K[K    returning a `void *`.[m
+:[K[K[m
+:[K[K[33mcommit bb3c31f3274f1ec046c6a798c3c10d1043dfe517[m[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Thu Apr 18 20:47:11 2024 +0100[m
+:[K[K[m
+:[K[K    xdiff: use proper free function[m
+:[K[K[m
+:[K[K[33mcommit 2fb07fd0e18d8e589e8b9ca9c7f8140b173b5d27[m[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Mon May 13 10:24:21 2024 +0100[m
+:[K[K[m
+:[K[K    rand: avoid uninitialized loadavg warnings[m
+:[K[K[m
+:[K[K[33mcommit 99ba44608f216d6c59eb9131907114883c7059a9[m[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Mon May 13 10:21:58 2024 +0100[m
+:[K[K[m
+:[K[K    tree: avoid mixed signedness comparison[m
+:[K[K    [m
+:[K[K    Promote mode to `uint32_t` before comparing it to an `uint16_t` to a[m :[K[Kvoid[m
+:[K[K    mixed signed comparison warnings.[m
+:[K[K[m
+:[K[K[33mcommit b1d6fd0858aad5db7bb33d56fb8f76fd3fb6722a[m[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Mon May 13 10:21:24 2024 +0100[m
+:[K[K[m
+:[K[K    cli: include alloca on illumos / solaris / sunos[m
+:[K[K[m
+:[K[K[33mcommit 5f796f881bf26fd176cf8471349a679eb2489953[m[m
+:[K[KMerge: 26e0bd4ca 322ea8023[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Mon May 13 09:58:45 2024 +0100[m
+:[K[K[m
+:[K[K    Merge pull request #6808 from qaqland/fix-demo-for-each-ref[m
+:[K[K    [m
+:[K[K    examples: fix memory leak in for-each-ref.c[m
+:[K[K[m
+:[K[K[33mcommit 26e0bd4ca34b01f89a33624c1731254b1c2a53c3[m[m
+:[K[KMerge: 8791a2671 2d649ccd2[m
+:[K[KAuthor: Edward Thomson <ethomson@edwardthomson.com>[m
+:[K[KDate:   Mon May 13 09:55:39 2024 +0100[m
+:[K[K[m
+:[K[K    Merge pull request #6806 from libgit2/ethomson/fetch_opts[m
+:[K[K    [m
+:[K[K    remote: drop bitfields in git_remote_fetch_options[m
+:[K[K [KESCESC[K^X^X[K:[K[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git log -p -2
+[?2004l[?1h=[33mcommit 69e5f2b2bab2d12d0fb5009b1724168a95ec7f4c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Shakti Lakhera <shakti.lakhera@tigeranalytics.com>[m
+Date:   Mon Jun 24 19:17:04 2024 +0530[m
+[m
+    Add new benchmarks[m
+[m
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mindex bc7dee80f..fcead926e 100644[m[m
+[1m--- a/CONTRIBUTING.md[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -1 +1,2 @@[m[m
+ My contibution[m[m
+[32m+[m[32m# test line[m[m
+[m
+[33mcommit b2ae521465d203e3052266e52e1ac6568b947576[m[m
+Author: Shakti Lakhera <shakti.lakhera@tigeranalytics.com>[m
+Date:   Mon Jun 24 19:15:56 2024 +0530[m
+[m
+    Done[m
+[m
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m[m
+[1mnew file mode 100644[m[m
+[1mindex 000000000..bc7dee80f[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/CONTRIBUTING.md[m[m
+[36m@@ -0,0 +1 @@[m[m
+:[K[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git log --stat
+[?2004l[?1h=[33mcommit 69e5f2b2bab2d12d0fb5009b1724168a95ec7f4c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Shakti Lakhera <shakti.lakhera@tigeranalytics.com>[m
+Date:   Mon Jun 24 19:17:04 2024 +0530[m
+[m
+    Add new benchmarks[m
+[m
+ CONTRIBUTING.md | 1 [32m+[m[m
+ 1 file changed, 1 insertion(+)[m
+[m
+[33mcommit b2ae521465d203e3052266e52e1ac6568b947576[m[m
+Author: Shakti Lakhera <shakti.lakhera@tigeranalytics.com>[m
+Date:   Mon Jun 24 19:15:56 2024 +0530[m
+[m
+    Done[m
+[m
+ CONTRIBUTING.md | 1 [32m+[m[m
+ README          | 1 [32m+[m[m
+ 2 files changed, 2 insertions(+)[m
+[m
+[33mcommit 4ce872a0fd5f40fc4282befd9b72e9ddebd22d02[m[33m ([m[1;33mtag: v1.8.2-rc1[m[33m, [m[1;31morigin[m [33m[m[33m[m[1;33m[m[33m[m[1;31m/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Merge: 4516ca149 e9d56b0b1[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Fri Jun 14 00:15:19 2024 +0200[m
+[m
+    Merge pull request #6830 from libgit2/ethomson/v1.8.2[m
+:[K[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git log --pretty=oneline
+[?2004l[?1h=[33m69e5f2b2bab2d12d0fb5009b1724168a95ec7f4c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m Add new benchmar[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[mks[m
+[33mb2ae521465d203e3052266e52e1ac6568b947576[m Done[m
+[33m4ce872a0fd5f40fc4282befd9b72e9ddebd22d02[m[33m ([m[1;33mtag: v1.8.2-rc1[m[33m, [m[1;31morigin/main[m[33m, [m[1;31m[m [33m[m[33m[m[1;33m[m[33m[m[1;31m[m[33m[m[1;31morigin/HEAD[m[33m)[m Merge pull request #6830 from libgit2/ethomson/v1.8.2[m
+[33me9d56b0b14df53e739348e097ebc4dc44a7f3ea5[m[33m ([m[1;31morigin/ethomson/v1.8.2[m[33m)[m v1.8.2[m [33m[m[33m[m[1;31m[m[33m[m: update version numbers[m
+[33m48b63274eaae07512dde115e965a31afa48b75da[m v1.8.2: update changelog[m
+[33m4516ca1497623aeddd1a4dc6540b29c797279a5f[m Merge pull request #6829 from l[m [33m[mibgit2/ethomson/fix_constness[m
+[33m93cb09f289ccc9ef892347507de07ea5fec88802[m Merge pull request #6816 from l[m [33m[mibgit2/ethomson/readme[m
+[33m49d3fadfca4ce8e7a643525eb301a2d45956641e[m Revert "commit: fix const decla[m [33m[mration"[m
+[33m6c5520f334e5652d5f0476c00a3188d1d97754e7[m Merge pull request #6811 from l[m [33m[mibgit2/ethomson/test_allocator[m
+[33mee552697d52dcd4394df90fd69c439bcdd7901d7[m README: update build badges and[m [33m[m links[m
+[33m36f7e21ad757a3dacc58cf7944329da6bc1d6e96[m[33m ([m[1;33mtag: v1.8.1[m[33m)[m Merge pull reques[m [33m[m[33m[m[1;33m[m[33m[mt #6817 from libgit2/ethomson/v1.8.1[m
+[33mae65dac85ec4bfe795b35a8f1f4815489668713f[m v1.8.1: update changelog[m
+[33m834ec0f52fcafd3af011dfd3f1b36ae2ee984ea5[m v1.8.1: update version numbers[m
+[33m0dab9d4a5774418cc5fc587ba4ee19fa62606f8c[m README: add experimental builds[m [33m[m to ci table[m
+[33meb00b48d915d0dd01e41364d31c6ab8470834aae[m fixup! alloc: introduce debug a[m [33m[mllocators[m
+:[K[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ git log --since=2.weeks
+[?2004l[?1h=[33mcommit 69e5f2b2bab2d12d0fb5009b1724168a95ec7f4c[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m[m
+Author: Shakti Lakhera <shakti.lakhera@tigeranalytics.com>[m
+Date:   Mon Jun 24 19:17:04 2024 +0530[m
+[m
+    Add new benchmarks[m
+[m
+[33mcommit b2ae521465d203e3052266e52e1ac6568b947576[m[m
+Author: Shakti Lakhera <shakti.lakhera@tigeranalytics.com>[m
+Date:   Mon Jun 24 19:15:56 2024 +0530[m
+[m
+    Done[m
+[m
+[33mcommit 4ce872a0fd5f40fc4282befd9b72e9ddebd22d02[m[33m ([m[1;33mtag: v1.8.2-rc1[m[33m, [m[1;31morigin[m [33m[m[33m[m[1;33m[m[33m[m[1;31m/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Merge: 4516ca149 e9d56b0b1[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Fri Jun 14 00:15:19 2024 +0200[m
+[m
+    Merge pull request #6830 from libgit2/ethomson/v1.8.2[m
+    [m
+    libgit2 v1.8.2[m
+[m
+[33mcommit e9d56b0b14df53e739348e097ebc4dc44a7f3ea5[m[33m ([m[1;31morigin/ethomson/v1.8.2[m[33m)[m[m
+Author: Edward Thomson <ethomson@edwardthomson.com>[m
+Date:   Thu Jun 13 19:43:46 2024 +0200[m
+[m
+:[K[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ pwd
+[?2004l/home/shaktil/my_project/mylibgit
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ cd my_project
+[?2004lbash: cd: my_project: No such file or directory
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/mylibgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/mylibgit[00m$ cd ..
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ pwd
+[?2004l/home/shaktil/my_project
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git clone https://github.com/schac on/ticgit
+[?2004lCloning into 'ticgit'...
+remote: Enumerating objects: 1857, done.[K
+Receiving objects:   0% (1/1857)Receiving objects:   1% (19/1857)Receiving objects:   2% (38/1857)Receiving objects:   3% (56/1857)Receiving objects:   4% (75/1857)Receiving objects:   5% (93/1857)Receiving objects:   6% (112/1857)Receiving objects:   7% (130/1857)Receiving objects:   8% (149/1857)Receiving objects:   9% (168/1857)Receiving objects:  10% (186/1857)Receiving objects:  11% (205/1857)Receiving objects:  12% (223/1857)Receiving objects:  13% (242/1857)Receiving objects:  14% (260/1857)Receiving objects:  15% (279/1857)Receiving objects:  16% (298/1857)Receiving objects:  17% (316/1857)Receiving objects:  18% (335/1857)Receiving objects:  19% (353/1857)Receiving objects:  20% (372/1857)Receiving objects:  21% (390/1857)Receiving objects:  22% (409/1857)Receiving objects:  23% (428/1857)Receiving objects:  24% (446/1857)Receiving objects:  25% (465/1857)Receiving objects:  26% (483/1857)Receiving objects:  27% (502/1857)Receiving objects:  28% (520/1857)Receiving objects:  29% (539/1857)Receiving objects:  30% (558/1857)Receiving objects:  31% (576/1857)Receiving objects:  32% (595/1857)Receiving objects:  33% (613/1857)Receiving objects:  34% (632/1857)Receiving objects:  35% (650/1857)Receiving objects:  36% (669/1857)Receiving objects:  37% (688/1857)Receiving objects:  38% (706/1857)Receiving objects:  39% (725/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  40% (743/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  41% (762/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  42% (780/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  43% (799/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  44% (818/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  45% (836/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  46% (855/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  47% (873/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  48% (892/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  49% (910/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  50% (929/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  51% (948/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  52% (966/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  53% (985/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  54% (1003/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  55% (1022/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  56% (1040/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  57% (1059/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  58% (1078/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  59% (1096/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  60% (1115/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  61% (1133/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  62% (1152/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  63% (1170/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  64% (1189/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  65% (1208/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  66% (1226/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  67% (1245/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  68% (1263/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  69% (1282/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  70% (1300/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  71% (1319/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  72% (1338/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  73% (1356/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  74% (1375/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  75% (1393/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  76% (1412/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  77% (1430/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  78% (1449/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  79% (1468/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  80% (1486/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  81% (1505/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  82% (1523/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  83% (1542/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  84% (1560/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  85% (1579/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  86% (1598/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  87% (1616/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  88% (1635/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  89% (1653/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  90% (1672/1857), 180.01 KiB | 322.00 KiB/sremote: Total 1857 (delta 0), reused 0 (delta 0), pack-reused 1857[K
+Receiving objects:  91% (1690/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  92% (1709/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  93% (1728/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  94% (1746/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  95% (1765/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  96% (1783/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  97% (1802/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  98% (1820/1857), 180.01 KiB | 322.00 KiB/sReceiving objects:  99% (1839/1857), 180.01 KiB | 322.00 KiB/sReceiving objects: 100% (1857/1857), 180.01 KiB | 322.00 KiB/sReceiving objects: 100% (1857/1857), 334.06 KiB | 445.00 KiB/s, done.
+Resolving deltas:   0% (0/837)Resolving deltas:   1% (9/837)Resolving deltas:   2% (17/837)Resolving deltas:   3% (26/837)Resolving deltas:   4% (34/837)Resolving deltas:   5% (42/837)Resolving deltas:   6% (51/837)Resolving deltas:   7% (59/837)Resolving deltas:   8% (67/837)Resolving deltas:   9% (76/837)Resolving deltas:  10% (84/837)Resolving deltas:  11% (93/837)Resolving deltas:  12% (101/837)Resolving deltas:  13% (109/837)Resolving deltas:  14% (118/837)Resolving deltas:  15% (126/837)Resolving deltas:  16% (134/837)Resolving deltas:  17% (143/837)Resolving deltas:  18% (151/837)Resolving deltas:  19% (160/837)Resolving deltas:  20% (168/837)Resolving deltas:  21% (176/837)Resolving deltas:  22% (185/837)Resolving deltas:  23% (193/837)Resolving deltas:  24% (201/837)Resolving deltas:  25% (210/837)Resolving deltas:  26% (218/837)Resolving deltas:  27% (226/837)Resolving deltas:  28% (235/837)Resolving deltas:  29% (243/837)Resolving deltas:  30% (252/837)Resolving deltas:  31% (260/837)Resolving deltas:  32% (268/837)Resolving deltas:  33% (277/837)Resolving deltas:  34% (285/837)Resolving deltas:  35% (293/837)Resolving deltas:  36% (302/837)Resolving deltas:  37% (310/837)Resolving deltas:  38% (319/837)Resolving deltas:  39% (327/837)Resolving deltas:  40% (335/837)Resolving deltas:  41% (344/837)Resolving deltas:  42% (352/837)Resolving deltas:  43% (360/837)Resolving deltas:  44% (369/837)Resolving deltas:  45% (377/837)Resolving deltas:  46% (386/837)Resolving deltas:  47% (394/837)Resolving deltas:  48% (402/837)Resolving deltas:  49% (411/837)Resolving deltas:  50% (419/837)Resolving deltas:  51% (427/837)Resolving deltas:  52% (436/837)Resolving deltas:  53% (444/837)Resolving deltas:  54% (452/837)Resolving deltas:  55% (461/837)Resolving deltas:  56% (469/837)Resolving deltas:  57% (478/837)Resolving deltas:  58% (486/837)Resolving deltas:  59% (495/837)Resolving deltas:  60% (503/837)Resolving deltas:  61% (511/837)Resolving deltas:  62% (519/837)Resolving deltas:  63% (528/837)Resolving deltas:  64% (536/837)Resolving deltas:  65% (545/837)Resolving deltas:  66% (553/837)Resolving deltas:  67% (561/837)Resolving deltas:  68% (570/837)Resolving deltas:  69% (578/837)Resolving deltas:  70% (586/837)Resolving deltas:  71% (595/837)Resolving deltas:  72% (603/837)Resolving deltas:  73% (612/837)Resolving deltas:  74% (620/837)Resolving deltas:  75% (628/837)Resolving deltas:  76% (637/837)Resolving deltas:  77% (645/837)Resolving deltas:  78% (653/837)Resolving deltas:  79% (662/837)Resolving deltas:  80% (670/837)Resolving deltas:  81% (678/837)Resolving deltas:  82% (687/837)Resolving deltas:  83% (695/837)Resolving deltas:  84% (704/837)Resolving deltas:  85% (712/837)Resolving deltas:  86% (720/837)Resolving deltas:  87% (729/837)Resolving deltas:  88% (737/837)Resolving deltas:  89% (745/837)Resolving deltas:  90% (754/837)Resolving deltas:  91% (762/837)Resolving deltas:  92% (771/837)Resolving deltas:  93% (779/837)Resolving deltas:  94% (787/837)Resolving deltas:  95% (796/837)Resolving deltas:  96% (804/837)Resolving deltas:  97% (812/837)Resolving deltas:  98% (821/837)Resolving deltas:  99% (829/837)Resolving deltas: 100% (837/837)Resolving deltas: 100% (837/837), done.
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ ls
+[?2004l[0m[01;34mmylibgit[0m  [01;34mticgit[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ cd ticgit
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ ls
+[?2004lLICENSE_GPL  README.mkd  TODO  [0m[01;34mexamples[0m  [01;34mnote[0m  ticgit-ng.gemspec
+LICENSE_MIT  Rakefile    [01;34mbin[0m   [01;34mlib[0m       [01;34mspec[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git remote -v
+[?2004lorigin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ cd grit
+[?2004lbash: cd: grit: No such file or directory
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git remote
+[?2004lorigin
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git remote add pb https://g ithub.com/paulboone/ticgit
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git remote -v
+[?2004lorigin	https://github.com/schacon/ticgit (fetch)
+origin	https://github.com/schacon/ticgit (push)
+pb	https://github.com/paulboone/ticgit (fetch)
+pb	https://github.com/paulboone/ticgit (push)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git fetch pb
+[?2004lremote: Enumerating objects: 43, done.[K
+remote: Counting objects:   4% (1/22)[Kremote: Counting objects:   9% (2/22)[Kremote: Counting objects:  13% (3/22)[Kremote: Counting objects:  18% (4/22)[Kremote: Counting objects:  22% (5/22)[Kremote: Counting objects:  27% (6/22)[Kremote: Counting objects:  31% (7/22)[Kremote: Counting objects:  36% (8/22)[Kremote: Counting objects:  40% (9/22)[Kremote: Counting objects:  45% (10/22)[Kremote: Counting objects:  50% (11/22)[Kremote: Counting objects:  54% (12/22)[Kremote: Counting objects:  59% (13/22)[Kremote: Counting objects:  63% (14/22)[Kremote: Counting objects:  68% (15/22)[Kremote: Counting objects:  72% (16/22)[Kremote: Counting objects:  77% (17/22)[Kremote: Counting objects:  81% (18/22)[Kremote: Counting objects:  86% (19/22)[Kremote: Counting objects:  90% (20/22)[Kremote: Counting objects:  95% (21/22)[Kremote: Counting objects: 100% (22/22)[Kremote: Counting objects: 100% (22/22), done.[K
+remote: Total 43 (delta 22), reused 22 (delta 22), pack-reused 21[K
+Unpacking objects:   2% (1/43)Unpacking objects:   4% (2/43)Unpacking objects:   6% (3/43)Unpacking objects:   9% (4/43)Unpacking objects:  11% (5/43)Unpacking objects:  13% (6/43)Unpacking objects:  16% (7/43)Unpacking objects:  18% (8/43)Unpacking objects:  20% (9/43)Unpacking objects:  23% (10/43)Unpacking objects:  25% (11/43)Unpacking objects:  27% (12/43)Unpacking objects:  30% (13/43)Unpacking objects:  32% (14/43)Unpacking objects:  34% (15/43)Unpacking objects:  37% (16/43)Unpacking objects:  39% (17/43)Unpacking objects:  41% (18/43)Unpacking objects:  44% (19/43)Unpacking objects:  46% (20/43)Unpacking objects:  48% (21/43)Unpacking objects:  51% (22/43)Unpacking objects:  53% (23/43)Unpacking objects:  55% (24/43)Unpacking objects:  58% (25/43)Unpacking objects:  60% (26/43)Unpacking objects:  62% (27/43)Unpacking objects:  65% (28/43)Unpacking objects:  67% (29/43)Unpacking objects:  69% (30/43)Unpacking objects:  72% (31/43)Unpacking objects:  74% (32/43)Unpacking objects:  76% (33/43)Unpacking objects:  79% (34/43)Unpacking objects:  81% (35/43)Unpacking objects:  83% (36/43)Unpacking objects:  86% (37/43)Unpacking objects:  88% (38/43)Unpacking objects:  90% (39/43)Unpacking objects:  93% (40/43)Unpacking objects:  95% (41/43)Unpacking objects:  97% (42/43)Unpacking objects: 100% (43/43)Unpacking objects: 100% (43/43), 5.99 KiB | 22.00 KiB/s, done.
+From https://github.com/paulboone/ticgit
+ * [new branch]      master     -> pb/master
+ * [new branch]      ticgit     -> pb/ticgit
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git push origin master
+[?2004lUsername for 'https://github.com': Shakti-TA
+Password for 'https://Shakti-TA@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/schacon/ticgit/'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git remote show origin
+[?2004l* remote origin
+  Fetch URL: https://github.com/schacon/ticgit
+  Push  URL: https://github.com/schacon/ticgit
+  HEAD branch: master
+  Remote branches:
+    master tracked
+    ticgit tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (up to date)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git remote rename pb paul
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git remote
+[?2004lorigin
+paul
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git remote remove paul
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git rm[Kemote
+[?2004lorigin
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git tag
+[?2004l[?1h=[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git tag -l [K[Ka v1.4 -m 'M[Kmy vers ion 1.4'
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git tag
+[?2004l[?1h=v1.4[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git show v1.4
+[?2004l[?1h=[33mtag v1.4[m[m
+Tagger: Shakti Lakhera <shakti.lakhera@tigeranalytics.com>[m
+Date:   Mon Jun 24 19:28:13 2024 +0530[m
+[m
+my version 1.4[m
+[m
+[33mcommit 847256809a3d518cd36b8f81859401416fe8d945[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: v1[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;33m.4[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Jeff Welling <Jeff.Welling@Gmail.com>[m
+Date:   Tue Apr 26 17:29:17 2011 -0700[m
+[m
+    Added note to clarify which is the canonical TicGit-ng repo[m
+[m
+[1mdiff --git a/README.mkd b/README.mkd[m[m
+[1mindex ab92035..9ea9ff9 100644[m[m
+[1m--- a/README.mkd[m[m
+[1m+++ b/README.mkd[m[m
+[36m@@ -1,3 +1,6 @@[m[m
+[32m+[m[32mNote: the original TicGit author has pulled all the TicGit-ng changes i[m [32m[m[32mnto his repository, creating a potentially confusing situation. The scha[m [32m[m[32mcon TicGit repo, this one, is not consistently maintained. For up to dat[m [32m[m[32me TicGit-ng info and code, check the canonical TicGit-ng repository at[m[41m  [m[m
+[32m+[m[32mhttps://github.com/jeffWelling/ticgit[m[m
+[32m+[m[m
+ ## TicGit-ng ##[m[m
+ [m[m
+:[K[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git tag v1.4-lw
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git tag
+[?2004l[?1h=v1.4[m
+v1.4-lw[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git show v1.4-lw
+[?2004l[?1h=[33mcommit 847256809a3d518cd36b8f81859401416fe8d945[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: v1[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;33m.4-lw[m[33m, [m[1;33mtag: v1.4[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Jeff Welling <Jeff.Welling@Gmail.com>[m
+Date:   Tue Apr 26 17:29:17 2011 -0700[m
+[m
+    Added note to clarify which is the canonical TicGit-ng repo[m
+[m
+[1mdiff --git a/README.mkd b/README.mkd[m[m
+[1mindex ab92035..9ea9ff9 100644[m[m
+[1m--- a/README.mkd[m[m
+[1m+++ b/README.mkd[m[m
+[36m@@ -1,3 +1,6 @@[m[m
+[32m+[m[32mNote: the original TicGit author has pulled all the TicGit-ng changes i[m [32m[m[32mnto his repository, creating a potentially confusing situation. The scha[m [32m[m[32mcon TicGit repo, this one, is not consistently maintained. For up to dat[m [32m[m[32me TicGit-ng info and code, check the canonical TicGit-ng repository at[m[41m  [m[m
+[32m+[m[32mhttps://github.com/jeffWelling/ticgit[m[m
+[32m+[m[m
+ ## TicGit-ng ##[m[m
+ [m[m
+ This project provides a ticketing system built on Git that is kept in a[m[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git log --pretty=oneline
+[?2004l[?1h=[33m847256809a3d518cd36b8f81859401416fe8d945[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;33mtag: v1.4-lw[m[33m, [m[1;33m[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;33m[m[33m[m[1;33mtag: v1.4[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Added note to clarify which is th[m [33m[m[33m[m[1;36m[m[1;32m[m[33m[m[1;33m[m[33m[m[1;33m[m[33m[m[1;31m[m[33m[m[1;31m[m[33m[me canonical TicGit-ng repo[m
+[33mcd95b7eb8d8fb7560dc820b1e20edff427429707[m Merge branch 'hotfix-1.0.2.2'[m
+[33me4932587f8eee941565849c8ac9fa56bfb4a000a[m Bumped version to 1.0.2.2[m
+[33m470d7afa8de9aa612cf711a7c07d702bdbcc3a1d[m Fixed bug where 'ti comment' wa[m [33m[ms prepopulated with a ruby object[m
+[33mb2015390494e8ae2e10393c95df89ee44ce4ec1a[m Merge branch 'hotfix-1.0.2.1'[m
+[33m871eb64b61414d9633b8056ddb3d66e77609f8a6[m Bumped version to 1.0.2.1[m
+[33m37092ec5e38287b98b6b3d52bb4c0a0ae2d776b0[m Fixed bug where the comments (#[m [33m[ms) appeared as first comment[m
+[33m27afa7ce172ecc2b44bbda855e6caca1d6c7f7c1[m Merge branch 'release-1.0.2'[m
+[33m48f34b3b28a3df2278430cf8b87b45c971c67d95[m Bumped version to 1.0.2[m
+[33m4f7043d484f9ff7852cec1cbc0af823961642fa8[m Added *.swp to .gitignore, for [m [33m[mfiles vim uses[m
+[33m31db5151f52c16c02aa7a65fa8a514317ddb8b85[m fix rdoc rake task[m
+[33m0178a68eb37d1013ec343f9eef476ac56e9926cc[m rspec 2 task fixed[m
+[33mf496146353247138a7251590762364a2cc82f1c9[m Rakefile[m
+[33m49f6312bb4852499d505578d58ddf2306316101c[m Merge branch 'ruby19' into devi[m [33m[mng[m
+[33m4c31fec749a7247728825d9d60ab834ff91ad72d[m Only use monkeypatch if we aren[m [33m[m't using 1.9[m
+[33m0d954536b63574b0d36a2bd4581f0ddd1c2bd949[m Merge branch 'ruby19' into devi[m [33m[mng[m
+[33m2d0f1a600d42af38c364f67f783838178b84410b[m Revert "Changed cli_spec back, [m [33m[mbut filed a bug to sort ti help commands"[m
+:[K[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git tag -a v1.2 31db515
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;27r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[25;30H(B[0;7m[ Reading... ](B[m[25;29H(B[0;7m[ Read 5 lines ](B[m[H(B[0;7m        /home/shaktil/my_project/ticgit/.git/TAG_EDITMSG                [1;71H(B[m[26d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[26;57H(B[0;7m^T(B[m Execute[27d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify[3d[36m#[4d# Write a message for tag:[5d#   v1.2[6d# Lines starting with '#' will be ignored.[2d[39m(B[m[?12l[?25h[?25l[1;58H(B[0;7m*[71G(B[m[?12l[?25h[2dL[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25he[?25l[?12l[?25h [?25l[?12l[?25hT[?25l[?12l[?25ha[?25l[?12l[?25hg[?25l[26;15H    (B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append  [55G(B[0;7mM-B(B[m Backup File[27;2H(B[0;7mC(B[m Cancel         (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend       (B[0;7m^T(B[m Browse[K[25d(B[0;7mFile Name to Write: /home/shaktil/my_project/ticgit/.git/TAG_EDITMSG    [25;69H(B[m[?12l[?25h[?25l[25;29H[1K (B[0;7m[ Writing... ](B[m[K[1;58H(B[0;7m [71G(B[m[25;28H(B[0;7m[ Wrote 5 lines ](B[m[26;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[55G  (B[0;7m^T(B[m Execute[K[27;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify[?12l[?25h[2;9H[?25l[25d[J[27d[?12l[?25h[27;1H[?1049l[23;0;0t[?1l>[?2004l[K[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git tag
+[?2004l[?1h=v1.2[m
+v1.4[m
+v1.4-lw[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git push origin v1.5
+[?2004lerror: src refspec v1.5 does not match any
+[31merror: failed to push some refs to 'https://github.com/schacon/ticgit'
+[m[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git tag -d v1.4-lw
+[?2004lDeleted tag 'v1.4-lw' (was 8472568)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ git checkout v2.0.0
+[?2004lerror: pathspec 'v2.0.0' did not match any file(s) known to git
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ pwd
+[?2004l/home/shaktil/my_project/ticgit
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ ls
+[?2004lLICENSE_GPL  README.mkd  TODO  [0m[01;34mexamples[0m  [01;34mnote[0m  ticgit-ng.gemspec
+LICENSE_MIT  Rakefile    [01;34mbin[0m   [01;34mlib[0m       [01;34mspec[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/ticgit[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/ticgit[00m$ cd ..
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ ls
+[?2004l[0m[01;34mmylibgit[0m  [01;34mticgit[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ touch README
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ touch test.rb
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ touch LICENSE
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ ls
+[?2004lLICENSE  README  [0m[01;34mmylibgit[0m  test.rb  [01;34mticgit[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git add README test.rb LICENSE
+[?2004lfatal: not a git repository (or any of the parent directories): .git
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /home/shaktil/my_project/.git/
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ mv [K[K[Kcd .git
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ ls
+[?2004lHEAD  [0m[01;34mbranches[0m  config  description  [01;34mhooks[0m  [01;34minfo[0m  [01;34mobjects[0m  [01;34mrefs[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ mv README ~/myproject[K[K[K[K[K[K[K_project/.git
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ mv README ~/my_project/.git[1P ~/my_project/.git[1P ~/my_project/.git[1P ~/my_project/.git[1P ~/my_project/.git[1P ~/my_project/.git[1P ~/my_project/.gitL ~/my_project/.gitI ~/my_project/.gitC ~/my_project/.gitE ~/my_project/.gitN ~/my_project/.gitS ~/my_project/.gitE ~/my_project/.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ mv LICENSE ~/my_project/.git[C[C[1P ~/my_project/.git[1P ~/my_project/.git[1P ~/my_project/.git[1P ~/my_project/.git[1P ~/my_project/.git[1P ~/my_project/.git[1P ~/my_project/.gitt ~/my_project/.gite ~/my_project/.gits ~/my_project/.gitt ~/my_project/.git. ~/my_project/.gitr ~/my_project/.gitb ~/my_project/.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ ls
+[?2004lHEAD  [0m[01;34mbranches[0m  config  description  [01;34mhooks[0m  [01;34minfo[0m  [01;34mobjects[0m  [01;34mrefs[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ cd ..
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ ls
+[?2004lLICENSE  README  [0m[01;34mmylibgit[0m  test.rb  [01;34mticgit[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ m[Klscd ..[3Plsmv test.rb ~/my_project/.git
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ ls
+[?2004lLICENSE  README  [0m[01;34mmylibgit[0m  [01;34mticgit[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ lsmv test.rb ~/my_project/.gitls[Kcd ..[3Plsmv test.rb ~/my_project/.gitLICENSE[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ mv LICENSE ~/my_project/.gitls[Kmv test.rb ~/my_project/.gitls[Kcd ..[3Plsmv test.rb ~/my_project/.gitLICENSE[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1PREADM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ ls
+[?2004l[0m[01;34mmylibgit[0m  [01;34mticgit[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ cd .git
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ ls
+[?2004lHEAD     README    config       [0m[01;34mhooks[0m  [01;34mobjects[0m  test.rb
+LICENSE  [01;34mbranches[0m  description  [01;34minfo[0m   [01;34mrefs[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ git add README test.rb LICENS E
+[?2004lfatal: this operation must be run in a work tree
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ mv[K[Kgit add README test.rb LICENSE[A]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd .gitls[Kmv README ~/my_project/.git[K[K[K[K[K
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ mv README ~/my_projectgit add README test.rb LICENSE[A]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd .gitls[Kmv README ~/my_project/.git[1@LICENS[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ mv LICENSE ~/my_project[1PREADM[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add README test.rb LICENSE[A]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd .gitls[Kmv README ~/my_project/.git[1@LICENS[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kmv test.rb ~/my_project/.git[K[K[K[K[K
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project/.git[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project/.git[00m$ cd ..
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ ls
+[?2004lLICENSE  README  [0m[01;34mmylibgit[0m  test.rb  [01;34mticgit[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git add README test.rb LICENSE
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git commit -m 'Intial commit'
+[?2004l[master (root-commit) 4f3de33] Intial commit
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 LICENSE
+ create mode 100644 README
+ create mode 100644 test.rb
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git branch testing
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git log --online --decorate
+[?2004lfatal: unrecognized argument: --online
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git log oneline[K[K[K[K[K[K[K--oneline --decorate
+[?2004l[?1h=[33m4f3de33[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;32mtesting[m[33m)[m Intial commit[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git checkout testing
+[?2004lSwitched to branch 'testing'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ vim test.rb
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H"test.rb" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [m[27;55H0,0-1[9CAll[1;1H[?25h[?25l[27;45H1[1;1H[?25h[?25l[27;46Hs[1;1H[27;45H  [1;1H[27;45H1cl[1;1H[27;45H   [1;1H[27;1H[1m-- INSERT --[m[27;13H[K[27;55H0,1[11CAll[1;1H[?25h[?25lt[27;55H1,2[1;2H[?25h[?25l[1;1H[K[27;57H1[1;1H[?25h[?25l[31m1[m[27;57H2[1;2H[?25h[?25l1s[27;57H3[1;3H[?25h[?25lt[27;57H4[1;4H[?25h[?25l[27;57H5[1;5H[?25h[?25lc[27;57H6[1;6H[?25h[?25lh[27;57H7[1;7H[?25h[?25la[27;57H8[1;8H[?25h[?25ln[27;57H9[1;9H[?25h[?25lg[27;57H10[1;10H[?25h[?25le[27;58H1[1;11H[?25h[?25l[2;1H[K[27;55H2,1 [2;1H[?25h[27;1H[K[2;1H[?25l[27;45H^[[2;1H[27;45H  [2;1H[27;55H2,0-1[9CAll[2;1H[?25h[?25l[27;45H^M[2;1H[27;45H  [2;1H[?25h[?25l[27;45H:[2;1H[27;45H[K[27;1H:[?25hwq[?25l[?2004l[>4;m"test.rb" 2L, 12B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git commit -a -m 'Make a change'
+[?2004l[testing 17c3ebd] Make a change
+ 1 file changed, 2 insertions(+)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git checkout master
+[?2004lSwitched to branch 'master'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ vim test.rb
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H"test.rb" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [m[27;55H0,0-1[9CAll[1;1H[?25h[?25l[27;45H2[1;1H[?25h[?25l[27;46Hn[1;1H[27;1H[97m[41mE35: No previous regular expression[m[27;45H[K[1;1H[27;55H0,0-1[9CAll[1;1H[?25h[?25l[27;45Hd[1;1H[?25h[?25l[27;46H<20>[1;1H[27;45H     [1;1H[?25h[?25l[27;45Hc[1;1H[?25h[?25l[27;46Hh[1;1H[27;45H  [1;1H[27;1H[1m-- INSERT --[m[27;13H[K[27;55H0,1[11CAll[1;1H[?25h[?25la[27;55H1,2[1;2H[?25h[?25ln[27;57H3[1;3H[?25h[?25lg[27;57H4[1;4H[?25h[?25le[27;57H5[1;5H[?25h[?25l[1;4H[K[27;57H4[1;4H[?25h[?25l[1;3H[K[27;57H3[1;3H[?25h[?25l[1;2H[K[27;57H2[1;2H[?25h[?25l[1;1H[K[27;57H1[1;1H[?25h[?25l[31m2[m[27;57H2[1;2H[?25h[?25l2n[27;57H3[1;3H[?25h[?25ld[27;57H4[1;4H[?25h[?25l[27;57H5[1;5H[?25h[?25lc[27;57H6[1;6H[?25h[?25lh[27;57H7[1;7H[?25h[?25la[27;57H8[1;8H[?25h[?25ln[27;57H9[1;9H[?25h[?25lg[27;57H10[1;10H[?25h[?25le[27;58H1[1;11H[?25h[?25l[2;1H[K[27;55H2,1 [2;1H[?25h[27;1H[K[2;1H[?25l[27;45H^[[2;1H[27;45H  [2;1H[27;55H2,0-1[9CAll[2;1H[?25h[?25l[27;45H^M[2;1H[27;45H  [2;1H[?25h[?25l[27;45H:[2;1H[27;45H[K[27;1H:[?25hwq[?25l[?2004l[>4;m"test.rb" 2L, 12B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git commit -a -m 'Make other chab[Kng es'
+[?2004l[master 8d0047c] Make other changes
+ 1 file changed, 2 insertions(+)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git log --oneline --decorate --gra ph --all
+[?2004l[?1h=* [33m8d0047c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m Make other changes[m
+[31m|[m * [33m17c3ebd[m[33m ([m[1;32mtesting[m[33m)[m Make a change[m
+[31m|[m[31m/[m  [m
+* [33m4f3de33[m Intial commit[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git checkout -b issue53[K[K[K[K53
+[?2004lSwitched to a new branch 'iss53'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git branch iss53
+[?2004lfatal: A branch named 'iss53' already exists.
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ vim index.html
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H"index.html" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [m[27;55H0,0-1[9CAll[1;1H[?25h[?25l[27;45H3[1;1H[?25h[?25l[27;46Hr[1;1H[?25h[?25l[27;47Hd[1;1H[27;45H   [1;1H[?25h[?25l[27;45H<20>[1;1H[27;45H    [1;1H[?25h[?25l[27;45Hc[1;1H[?25h[?25l[27;46Hh[1;1H[27;45H  [1;1H[27;1H[1m-- INSERT --[m[27;14H[K[27;55H0,1[11CAll[1;1H[?25h[?25la[27;55H1,2[1;2H[?25h[?25ln[27;57H3[1;3H[?25h[?25lg[27;57H4[1;4H[?25h[?25le[27;57H5[1;5H[?25h[?25l[1;4H[K[27;57H4[1;4H[?25h[?25l[1;3H[K[27;57H3[1;3H[?25h[?25l[1;2H[K[27;57H2[1;2H[?25h[?25l[1;1H[K[27;57H1[1;1H[?25h[?25l3[27;57H2[1;2H[?25h[?25lr[27;57H3[1;3H[?25h[?25ld[27;57H4[1;4H[?25h[?25l[27;57H5[1;5H[?25h[?25lc[27;57H6[1;6H[?25h[?25lh[27;57H7[1;7H[?25h[?25la[27;57H8[1;8H[?25h[?25ln[27;57H9[1;9H[?25h[?25lg[27;57H10[1;10H[?25h[?25le[27;58H1[1;11H[?25h[?25l[2;1H[K[27;55H2,1 [2;1H[?25h[27;1H[K[2;1H[?25l[27;45H^[[2;1H[27;45H  [2;1H[27;55H2,0-1[9CAll[2;1H[?25h[?25l[27;45H^M[2;1H[27;45H  [2;1H[?25h[?25l[27;45H:[2;1H[27;45H[K[27;1H:[?25hwq[?25l[?2004l[>4;m"index.html" [New] 2L, 12B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git commit -a -m 'Create new foote r[issue 53]'
+[?2004lOn branch iss53
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mindex.html[m
+	[31mmylibgit/[m
+	[31mticgit/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git checkout master
+[?2004lSwitched to branch 'master'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git checkout -b hotfix
+[?2004lSwitched to a new branch 'hotfix'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ vim index.html
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H"index.html" 2L, 12B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H3rd change[2;1H[K[3;1H[94m~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [m[27;55H2,0-1[9CAll[2;1H[?25h[?25l[27;45H4[2;1H[?25h[?25l[27;46Ht[2;1H[?25h[?25l[27;47Hh[2;1H[27;45H   [2;1H[?25h[?25l[27;45H<20>[2;1H[27;45H    [2;1H[?25h[?25l[27;45Hc[2;1H[?25h[?25l[27;46Hh[2;1H[27;45H  [2;1H[27;1H[1m-- INSERT --[m[27;14H[K[27;55H2,1[11CAll[2;1H[?25h[?25la[27;57H2[2;2H[?25h[?25l[2;1H[K[27;57H1[2;1H[?25h[?25l4[27;57H2[2;2H[?25h[?25lt[27;57H3[2;3H[?25h[?25lh[27;57H4[2;4H[?25h[?25l[27;57H5[2;5H[?25h[?25lc[27;57H6[2;6H[?25h[?25lh[27;57H7[2;7H[?25h[?25la[27;57H8[2;8H[?25h[?25ln[27;57H9[2;9H[?25h[?25lg[27;57H10[2;10H[?25h[?25le[27;58H1[2;11H[?25h[?25l[3;1H[K[27;55H3,1 [3;1H[?25h[27;1H[K[3;1H[?25l[27;45H^[[3;1H[27;45H  [3;1H[27;55H3,0-1[9CAll[3;1H[?25h[?25l[27;45H^M[3;1H[27;45H  [3;1H[?25h[?25l[27;45H:[3;1H[27;45H[K[27;1H:[?25hwq[?25l[?2004l[>4;m"index.html" 3L, 23B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git commit -a -m 'Fix broken email  address'
+[?2004lOn branch hotfix
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mindex.html[m
+	[31mmylibgit/[m
+	[31mticgit/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git checkout master
+[?2004lSwitched to branch 'master'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git merge hotfix
+[?2004lAlready up to date.
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git branch -d hotfix
+[?2004lDeleted branch hotfix (was 8d0047c).
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git checkout iss53
+[?2004lSwitched to branch 'iss53'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ vim index.hitml
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H"index.hitml" [New][2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                       [3;1H~                                                                       [4;1H~                                                                       [5;1H~                                                                       [6;1H~                                                                       [7;1H~                                                                       [8;1H~                                                                       [9;1H~                                                                       [10;1H~                                                                       [11;1H~                                                                       [12;1H~                                                                       [13;1H~                                                                       [14;1H~                                                                       [15;1H~                                                                       [16;1H~                                                                       [17;1H~                                                                       [18;1H~                                                                       [19;1H~                                                                       [20;1H~                                                                       [21;1H~                                                                       [22;1H~                                                                       [23;1H~                                                                       [24;1H~                                                                       [25;1H~                                                                       [26;1H~                                                                       [m[27;55H0,0-1[9CAll[1;1H[?25h[?25l[27;45H4[1;1H[?25h[?25l[27;46Ht[1;1H[?25h[?25l[27;47Hh[1;1H[27;45H   [1;1H[?25h[?25l[27;45H<20>[1;1H[27;45H    [1;1H[?25h[?25l[27;45Hc[1;1H[?25h[?25l[27;46Hh[1;1H[27;45H  [1;1H[27;1H[1m-- INSERT --[m[27;13H[K[27;55H0,1[11CAll[1;1H[?25h[?25la[27;55H1,2[1;2H[?25h[?25ln[27;57H3[1;3H[?25h[?25lg[27;57H4[1;4H[?25h[?25l[1;3H[K[27;57H3[1;3H[?25h[?25l[1;2H[K[27;57H2[1;2H[?25h[?25l[1;1H[K[27;57H1[1;1H[?25h[?25l4[27;57H2[1;2H[?25h[?25lt[27;57H3[1;3H[?25h[?25lh[27;57H4[1;4H[?25h[?25l[27;57H5[1;5H[?25h[?25lc[27;57H6[1;6H[?25h[?25lh[27;57H7[1;7H[?25h[?25la[27;57H8[1;8H[?25h[?25ln[27;57H9[1;9H[?25h[?25lg[27;57H10[1;10H[?25h[?25le[27;58H1[1;11H[?25h[?25l[2;1H[K[27;55H2,1 [2;1H[?25h[27;1H[K[2;1H[?25l[27;45H^[[2;1H[27;45H  [2;1H[27;55H2,0-1[9CAll[2;1H[?25h[?25l[27;45H^M[2;1H[27;45H  [2;1H[?25h[?25l[27;45H:[2;1H[27;45H[K[27;1H:[?25hwq[?25l[?2004l[>4;m"index.hitml" [New] 2L, 12B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?25h[>4;m[?1049l[23;0;0t[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git commit -a -m 'Finish the new f iiter[issue 53]'
+[?2004lOn branch iss53
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mindex.hitml[m
+	[31mindex.html[m
+	[31mmylibgit/[m
+	[31mticgit/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git checkout master
+[?2004lSwitched to branch 'master'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git merge iss53
+[?2004lAlready up to date.
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git branch -d iss53
+[?2004lDeleted branch iss53 (was 8d0047c).
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ ls
+[?2004lLICENSE  README  index.hitml  index.html  [0m[01;34mmylibgit[0m  test.rb  [01;34mticgit[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git branch
+[?2004l[?1h=* [32mmaster[m[m
+  testing[m[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git branch -v
+[?2004l[?1h=* [32mmaster [m 8d0047c Make other changes[m
+  testing[m 17c3ebd Make a change[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git branch --merged
+[?2004l[?1h=* [32mmaster[m[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git branch --no-merged
+[?2004l[?1h=  testing[m[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git branch -d testing
+[?2004lerror: The branch 'testing' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D testing'.
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git branch --all
+[?2004l[?1h=* [32mmaster[m[m
+  testing[m[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ git push --set-upstream origin mai n
+[?2004lerror: src refspec main does not match any
+[31merror: failed to push some refs to 'origin'
+[m[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ 
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ pwd
+[?2004l/home/shaktil/my_project
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ ls
+[?2004lLICENSE  README  index.hitml  index.html  [0m[01;34mmylibgit[0m  test.rb  [01;34mticgit[0m
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/my_project[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/my_project[00m$ cd ..
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ pwd
+[?2004l/home/shaktil
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ git clone https://github.com/tonychacon/blink [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kk
+[?2004lCloning into 'blink'...
+remote: Enumerating objects: 23, done.[K
+remote: Total 23 (delta 0), reused 0 (delta 0), pack-reused 23[K
+Receiving objects:   4% (1/23)Receiving objects:   8% (2/23)Receiving objects:  13% (3/23)Receiving objects:  17% (4/23)Receiving objects:  21% (5/23)Receiving objects:  26% (6/23)Receiving objects:  30% (7/23)Receiving objects:  34% (8/23)Receiving objects:  39% (9/23)Receiving objects:  43% (10/23)Receiving objects:  47% (11/23)Receiving objects:  52% (12/23)Receiving objects:  56% (13/23)Receiving objects:  60% (14/23)Receiving objects:  65% (15/23)Receiving objects:  69% (16/23)Receiving objects:  73% (17/23)Receiving objects:  78% (18/23)Receiving objects:  82% (19/23)Receiving objects:  86% (20/23)Receiving objects:  91% (21/23)Receiving objects:  95% (22/23)Receiving objects: 100% (23/23)Receiving objects: 100% (23/23), done.
+Resolving deltas:   0% (0/5)Resolving deltas:  20% (1/5)Resolving deltas:  40% (2/5)Resolving deltas:  60% (3/5)Resolving deltas:  80% (4/5)Resolving deltas: 100% (5/5)Resolving deltas: 100% (5/5), done.
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~[00m$ cd blink
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ git checkout -b slow-blink
+[?2004lSwitched to a new branch 'slow-blink'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ sed -i 's/1000/2000[K[K[K[K3000/' blnk[K[Kink.ino
+[?2004l[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ git diff --word-diff
+[?2004l[?1h=[1mdiff --git a/blink.ino b/blink.ino[m[m
+[1mindex 15b9911..a6cc5a5 100644[m[m
+[1m--- a/blink.ino[m[m
+[1m+++ b/blink.ino[m[m
+[36m@@ -18,7 +18,7 @@[m [mvoid setup() {[m[m
+// the loop routine runs over and over again forever:[m[m
+void loop() {[m[m
+  digitalWrite(led, HIGH);   // turn the LED on (HIGH is the voltage lev[m el)[m[m
+  [31m[-delay(1000);-][m[32m{+delay(3000);+}[m               // wait for a second[m
+  digitalWrite(led, LOW);    // turn the LED off by making the voltage L[m OW[m[m
+  [31m[-delay(1000);-][m[32m{+delay(3000);+}[m               // wait for a second[m
+}[m[m
+[K[?1l>[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ git commit -a -m 'Change delay to 3 sec onds'
+[?2004l[slow-blink 667cf5d] Change delay to 3 seconds
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ git push origin slow-blink
+[?2004lUsername for 'https://github.com': Shakti-TA
+Password for 'https://Shakti-TA@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/tonychacon/blink/'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ [K]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ git push origin slow-blink
+[?2004lUsername for 'https://github.com': Shakti-TA
+Password for 'https://Shakti-TA@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/tonychacon/blink/'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ git push origin slow-blink
+[?2004lUsername for 'https://github.com': Shakti-TA
+Password for 'https://Shakti-TA@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/tonychacon/blink/'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ git push origin slow-blink
+[?2004lUsername for 'https://github.com': Shakti-TA
+Password for 'https://Shakti-TA@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/tonychacon/blink/'
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ pwd
+[?2004l/home/shaktil/blink
+[?2004h]0;shaktil@DESKTOP-QU6KI9F: ~/blink[01;32mshaktil@DESKTOP-QU6KI9F[00m:[01;34m~/blink[00m$ exit
+[?2004lexit
+
+Script done on 2024-06-24 21:23:48+05:30 [COMMAND_EXIT_CODE="0"]
